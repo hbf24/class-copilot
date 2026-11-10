@@ -1,0 +1,34 @@
+# ---------- 运行时数据(不要提交) ----------
+课程库/
+.cache/
+.courses/
+.covers/
+.trash/
+.data_old/
+.groups.json
+.ui_state.json
+*.log
+
+# ---------- 密钥(绝不要提交) ----------
+config.json
+.api.key
+*.api.key
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---------- 打包产物 ----------
+dist/
+build/pyinstaller/*
+!build/pyinstaller/class-copilot.spec
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

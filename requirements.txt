@@ -1,0 +1,20 @@
+# ---- Web 服务 ----
+fastapi>=0.110
+uvicorn>=0.27
+python-multipart>=0.0.9
+httpx>=0.26
+
+# ---- 文档解析 ----
+python-pptx>=0.6.23      # .pptx 逐页文字
+pypdf>=4.0               # .pdf 文字
+PyMuPDF>=1.23            # PDF 版式检测 / 切页
+Pillow>=10.0             # 图片处理
+
+# ---- 语音识别(实时转写) ----
+dashscope>=1.14          # 阿里云百炼 qwen3-asr
+
+# ---- 桌面独立窗口(可选; 不用可以只跑浏览器版) ----
+pywebview>=4.4
+
+# ---- 打包成 Windows 桌面程序(可选) ----
+pyinstaller>=6.0

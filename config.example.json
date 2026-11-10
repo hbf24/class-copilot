@@ -1,0 +1,5 @@
+{
+  "sensenova_key": "填你的 SenseNova API Key（免费优先；也可用环境变量 DEEPSEEK_API_KEY）",
+  "sensenova_model": "sensenova-6.8-flash-lite",
+  "tavily_api_key": "填你的 Tavily API Key（AI 问答的联网搜索，可留空）"
+}
